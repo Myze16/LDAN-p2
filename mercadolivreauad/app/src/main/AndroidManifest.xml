@@ -24,26 +24,3 @@
     </application>
 
 </manifest>
-
-<!--ListView de Produtos:-->
-
-<!--Crie uma interface com um ListView que exiba uma lista de produtos disponíveis para compra.-->
-<!--Cada item deve incluir:-->
-<!--Nome do produto;-->
-<!--Preço;-->
-<!--Miniatura de imagem do produto;-->
-<!--Avaliação ou classificação (ex.: estrelas ou texto breve).-->
-<!--Tela de Detalhes do Produto:-->
-
-<!--Ao clicar em um item da lista, o aplicativo deve exibir uma nova tela com mais informações sobre o produto, incluindo:-->
-<!--Nome;-->
-<!--Imagem maior;-->
-<!--Descrição detalhada;-->
-<!--Preço;-->
-<!--Botão "Adicionar ao Carrinho" (não precisa implementar a funcionalidade de carrinho, apenas exibir o botão).-->
-<!--Dados Mockados:-->
-
-<!--Utilize dados fictícios e armazenados localmente (não é necessário acessar APIs ou serviços externos).-->
-<!--Personalização:-->
-
-<!--Personalize o design da interface para simular um aplicativo de e-commerce de sua preferência. Informe ao professor qual aplicativo foi escolhido como inspiração.-->

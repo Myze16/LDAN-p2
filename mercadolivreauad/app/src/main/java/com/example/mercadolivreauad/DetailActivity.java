@@ -17,7 +17,7 @@ public class DetailActivity extends Activity {
         String name = intent.getStringExtra("name");
         String description = intent.getStringExtra("description");
         int rating = intent.getIntExtra("rating", 0);
-        int fullImageId = intent.getIntExtra("fullImageId", -1);
+        int fullImageId = intent.getIntExtra("imageResourceId", -1);
         double price = intent.getDoubleExtra("price", 0);
 
         TextView nameTextView = findViewById(R.id.productName);
@@ -29,9 +29,9 @@ public class DetailActivity extends Activity {
 
         nameTextView.setText(name);
         descriptionTextView.setText(description);
-        ratingTextView.setText(rating);
+        ratingTextView.setText(String.valueOf(rating));
         fullImageView.setImageResource(fullImageId);
-        priceTextView.setText((int) price);
+        priceTextView.setText(String.valueOf((double) price));
 
         backButton.setOnClickListener(v -> {
             Intent backIntent = new Intent(DetailActivity.this, ListActivity.class);
